@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url(imgs/hive-background.png);
+    background-image: url(imgs/bezzu-background.png);
     background-size: cover;
     font-family: 'Poppins', sans-serif;
 }
@@ -9,7 +9,7 @@ body{
 
 header{
     background-color: #F7C41D;
-    border-bottom: 2px solid;
+    border-bottom: 2px solid #49290C;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,10 +39,38 @@ nav a:hover {
     padding-bottom: 10px;
 }
 
+/* Home Styles */
+.welcome-content {
+    text-align: center;
+    color: #49290C;
+    padding: 100px 20px;
+}
+.welcome-title {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.welcome-subtitle {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+#btn-equipe {
+    padding: 12px 24px;
+    background-color: #F7C41D;
+    color: #49290c;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+#btn-equipe:hover {
+    color: #F7C41D;
+    background-color: #49290c;
+}
+
 /* Footer Styles */
 
 footer {
-  background-color: #343A40;
+  background-color: #49290C;
   color: white;
   font-family: 'Poppins', sans-serif;
   padding: 40px 20px 20px;
