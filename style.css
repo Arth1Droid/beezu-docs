@@ -4,6 +4,9 @@ body{
     background-size: cover;
     font-family: 'Poppins', sans-serif;
 }
+
+/* Header Styles */
+
 header{
     background-color: #F7C41D;
     border-bottom: 2px solid;
@@ -34,4 +37,50 @@ nav a:hover {
     padding-left: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #343A40;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 40px 20px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.footer-contact p {
+  margin: 5px 0;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  text-align: center;
+  border-top: 1px solid #555;
+  padding-top: 15px;
+  font-size: 14px;
 }
