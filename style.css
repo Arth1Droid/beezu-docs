@@ -1,9 +1,9 @@
 body {
     margin: 0;
-    background-image: url(imgs/bezzu-background.png);
-    background-size: cover;          /* cobre tudo */
+    background-image: url(imgs/background-tiles.svg);
+    background-size: 40rem;          /* cobre tudo */
     background-position: center;     /* centraliza o corte */
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     font-family: 'Poppins', sans-serif;
 }
 
