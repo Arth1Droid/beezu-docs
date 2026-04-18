@@ -15,6 +15,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
 }
 nav ul{
     display: flex;
@@ -189,7 +194,36 @@ nav a:hover {
   box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
 }
 
+/* Project-Team-Details Section Styles  */
 
+#project-team-section {
+    display: flex;
+    margin-left: 80px;
+    flex-direction: column;
+}
+
+/* Project-Solution-Details Section Styles  */
+
+#project-solution-section {
+    display: flex;
+    margin-left: 80px;
+    flex-direction: column;
+}
+/* Project-Business-Details Section Styles  */
+
+#project-business-section {
+    display: flex;
+    margin-left: 80px;
+    flex-direction: column;
+}
+
+/* Project-Docs-Details Section Styles  */
+
+#project-docs-section {
+    display: flex;
+    margin-left: 80px;
+    flex-direction: column;
+}
 /* Footer Styles */
 
 footer {
