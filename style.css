@@ -1,9 +1,13 @@
-body{
+body {
     margin: 0;
     background-image: url(imgs/bezzu-background.png);
-    background-size: cover;
+    background-size: cover;          /* cobre tudo */
+    background-position: center;     /* centraliza o corte */
+    background-repeat: no-repeat;
     font-family: 'Poppins', sans-serif;
 }
+
+
 
 /* Header Styles */
 
@@ -52,6 +56,7 @@ nav a:hover {
 .welcome-subtitle {
     font-size: 24px;
     margin-bottom: 30px;
+    font-weight: 500;
 }
 #btn-equipe {
     padding: 12px 24px;
@@ -66,6 +71,85 @@ nav a:hover {
     color: #F7C41D;
     background-color: #49290c;
 }
+
+/* Project-Details Section Styles  */
+#project-details-section {
+    display: flex;
+    margin-left: 80px;
+    flex-direction: column;
+
+}
+.project-details-title {
+  color: #49290C;
+  position: relative;
+  font-weight: 600;
+  font-size:36px;
+  margin-bottom: 10px;
+
+}
+.project-details-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    width: 40px;
+    height: 6px;
+    background-color: #F7C41D;
+}
+.project-details-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #F5F5F5;
+  padding: 20px;
+  border-radius: 18px;
+  max-width: 800px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+}
+.project-details-header {
+  display: flex;
+  gap: 16px;
+  color: #49290C;
+  font-weight: 400;
+  font-size:20px;
+}
+.project-details-container:hover {
+ transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
+}
+.details-card h5{
+  font-weight: 600;
+  font-size:20px;
+  color: #49290C;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 8px 0;
+}
+.details-card p{
+  font-size:15px;
+
+}
+.details-card h5 img {
+  width: 50px;
+  height: 30px;
+  object-fit: contain;
+}
+.details-card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+  gap: 20px;
+}
+
+#beezu-title-img {
+  width: 150px;
+  height: auto;
+} 
+
+
+/* Project-Mission-Details Section Styles  */
+
+
 
 /* Footer Styles */
 
