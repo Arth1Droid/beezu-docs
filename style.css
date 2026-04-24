@@ -199,6 +199,91 @@ nav a:hover {
   background-color: #49290C; 
   color: #ffff;
 }
+/* Project-Process-Details Section Styles  */
+.project-process-container {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.project-process-details {
+  background-color: #F5F5F5;
+  max-width: 380px;
+  max-height: 600px;
+  margin-bottom: 15px;
+  border-radius: 18px;
+  padding: 20px;
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),background-color 0.25s ease,color 0.25s ease;will-change: transform;
+}
+.project-process-details:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
+  background-color: #49290C; 
+  color: #fff;
+  transform: translateY(-6px);
+
+}
+.process-title-container h5{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 0px;
+  font-weight: 600;
+  font-size:20px;
+}
+.process-title-container p{
+  margin: 0,0,0,50px;
+}
+
+.Beezu-Layout{
+  max-width: 400px;
+  max-height: 350px;
+  border-radius: 12px;
+}
+.principal-process {
+  background: #f3f3f3;
+  padding: 30px;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  max-width: 800px;
+  margin: 0 auto;
+
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),background-color 0.25s ease,color 0.25s ease;will-change: transform;
+
+}
+
+.principal-process:hover {
+  background-color: #49290C; 
+  color: #fff;
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
+} 
+
+.process-title-container h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.Beezu-Layout {
+  max-width: 700px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.process-description {
+  font-size: 16px;
+  color: #333;
+  max-width: 600px;
+}
 
 /* Project-Team-Details Section Styles  */
 
@@ -266,6 +351,8 @@ nav a:hover {
 .project-document-content:hover {
   background-color: #49290C; 
   color: #fff;
+   transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.18);
 }
 .project-document-content img {
   width: 40px;
